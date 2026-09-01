@@ -1,22 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Сервис комбинированных отчетностей</title>
-    <style>
-        body { font-family: sans-serif; text-align: center; padding: 50px; background-color: #f4f4f4; }
-        h1 { color: #333; }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .centered-box {
+      max-width: 1024px; /* Fixes width at 1024px on desktop */
+      width: 100%;       /* Shrinks cleanly to fit mobile screens */
+      margin: 0 auto;    /* Centers the box horizontally */
+      padding: 20px;     /* Creates space between text and borders */
+      font-size: 12px;   /* Appends your preferred 12px font size */
+      box-sizing: border-box; /* Keeps borders and padding inside the 1024px limit */
+      
+    }
+  </style>
 </head>
 <body>
-    
-    <p style="font-size: 14px;">Сервис работает в тестовом режиме. Сервис позволяет просматривать комбинированные РСБУ данные российских юридических лиц (ЮЛ)</p> 
-    <p style="font-size: 14px;">Сальдированные данные (EBITDA, чистая прибыль, чистый оборотный капитал, чистые аткивы) не содержат ВГО. Другие данные (например выручка - могут содержать). Существуют и другие ограничения по использованию данных(ЮЛ). Сейчас в модели загружены данные только компаний производителей еды: СХ и переработчики. Не включены даанные холдинговых торговых и других ЮЛ</p>
 
+  <div class="centered-box">
+    <p>Сервис работает в тестовом режиме. Сервис позволяет просматривать комбинированные РСБУ данные российских юридических лиц (ЮЛ)</p>
+    <p>Сальдированные данные (EBITDA, чистая прибыль, чистый оборотный капитал, чистые аткивы) не содержат ВГО. Другие данные (например выручка - могут содержать). Существуют и другие ограничения по использованию данных(ЮЛ). Сейчас в модели загружены данные только компаний производителей еды: СХ и переработчики. Не включены даанные холдинговых торговых и других ЮЛ</p>
+  </div>
 
-<iframe title="данные_АПК_v3" width="1024" height="612" src="https://app.powerbi.com/view?r=eyJrIjoiZWQ0M2FhODEtMmJjMC00ZDJhLWI0OTItMTBkMmQ0ZmY4NWI2IiwidCI6ImNmZjI0Y2MzLTRkOWEtNDVkYy1iYjgxLTRkMzU2NzAzNTg1MiIsImMiOjEwfQ%3D%3D&embedImagePlaceholder=true&pageName=cac23fbae8df25a015d3" frameborder="0" allowFullScreen="true"></iframe>
+    <iframe title="данные_АПК_v3" width="1024" height="612" src="https://app.powerbi.com/view?r=eyJrIjoiZWQ0M2FhODEtMmJjMC00ZDJhLWI0OTItMTBkMmQ0ZmY4NWI2IiwidCI6ImNmZjI0Y2MzLTRkOWEtNDVkYy1iYjgxLTRkMzU2NzAzNTg1MiIsImMiOjEwfQ%3D%3D&embedImagePlaceholder=true&pageName=cac23fbae8df25a015d3" frameborder="0" allowFullScreen="true"></iframe>
 
-    <p style="font-size: 14px;">Рекомендуется просмотр в полноэкранном режиме</p>
-    
 </body>
 </html>
+
+
+
